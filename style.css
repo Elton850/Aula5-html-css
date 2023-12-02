@@ -1,0 +1,80 @@
+body{
+    background-color: #1b1833;
+    font-family: 'Recursive';
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.logo{
+    max-width: 150px;
+}
+
+.menu{
+    display: flex;
+    gap: 15px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.menu a:hover{
+    color: gray;
+}
+
+.conheca_mais{
+    height: 100vh;
+    background-image: url("https://images.hdqwalls.com/download/the-avengers-marvel-comics-oc-3840x2400.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.informacoes{
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pacifico';
+    color: #1b1833;
+}
+
+.informacoes h1{
+    font-size: 2.5rem;
+}
+
+.informacoes p{
+    font-family: 'Rubik Bubbles';
+    font-size: 3rem;
+}
+
+.informacoes button{
+    font-family: 'Pacifico';
+    font-size: 1.5rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 15px;
+    border: none;
+    background-color: #1b1833;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.informacoes button:hover{
+    transform: scale(1.1);
+}
